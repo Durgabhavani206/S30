@@ -3,11 +3,14 @@ color: blue;
 background-color: rgb(216, 189, 13);
 }
 .Block{
-    height: 300px;
-    width: 300px;
-    color: azure;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 200px;
+    background-color: white;
+   position: absolute;/*to get at the center*/
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);/*to place element at center we decrease -50%height and width*/
+   /*allocate a space on all 4 sides*/
+   padding: 10px;
+   box-shadow: -2px 5px 10px 10px rgb(227, 133, 147);
 }
